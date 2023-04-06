@@ -1,0 +1,20 @@
+---
+redis:
+  addrs:
+    - "127.0.01:6379"
+  username:
+  password:
+  database: 0
+  reset: false
+  idle: 5
+  poolSize: 40
+  poolTimeOut: 1000
+  idleTimeout: 1000
+  dailTimeOut: 1000
+  readTimeOut: 3000
+  writeTimeOut: 3000
+  minIdleConns:
+  maxConnAge:
+  sentinelPassword:
+  masterName:
+
